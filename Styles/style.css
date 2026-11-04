@@ -1,0 +1,32 @@
+menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.nav{
+    flex-direction: row;
+    display: flex;
+    justify-content: center; 
+}
+.item{
+    margin-right: 40px;
+}
+
+.idiomas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 54px;
+}
+.idioma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    margin: 0 5px 0 5px;
+    height: 30px;
+    width: 30px;
+}
+

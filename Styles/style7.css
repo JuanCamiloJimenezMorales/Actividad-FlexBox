@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(246,144,130);
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color:#5abc9b;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;    
+    margin-right: 5px;
+}
+li{
+    margin-left: 20px;
+}
+.idiomas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+.idiom{
+    margin: 0 0 0 10px;
+}
+.padre{
+    display: flex;
+    width: 100%;
+}
+.saside{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+.img-saside{
+    height: 200px;
+    margin-bottom: 10px;
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 0 0 10px;
+}
+.img-articulo{
+    width: 1050px;
+    height: 300px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 215, 215);
+    height: 50px;
+}
